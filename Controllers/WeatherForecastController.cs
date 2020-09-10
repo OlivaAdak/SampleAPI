@@ -35,5 +35,11 @@ namespace WebApplication2.Controllers
             })
             .ToArray();
         }
+        [HttpGet]
+        [Route("GetAllDetails")]
+        public string GetAllDetails()
+        {
+            return "Welcome to My API";
+        }
     }
 }
